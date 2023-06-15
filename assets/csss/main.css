@@ -1,0 +1,33 @@
+
+.person {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+}
+.person__title {
+    z-index: 5;
+    position: relative;
+    color: white;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+.img {
+    display: flex;
+    width: 100%;
+}
+.person__description {
+    transition: 0.5s;
+    display: none;
+    opacity: 0;
+    flex-direction: column;
+    z-index: 100;
+    color: #ffff;
+}
+.description__character {
+}
