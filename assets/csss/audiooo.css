@@ -1,0 +1,15 @@
+.btn__vaud {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 15vh;
+    top: 0;
+    cursor: pointer;
+    z-index: 999;
+}
+.btn__vaud {
+}
+
+.btn__vaud:active {
+    transform: scale(90%) ;
+}
