@@ -19,6 +19,14 @@ let aud = document.querySelector('.btn__vaud')
 let mus = document.querySelector('.audiooo')
 let musplay = true
 
+let range = document.querySelector('#range')
+console.log(range);
+
+range.addEventListener('change',function () {
+    mus.volume = range.value/100
+    console.log(mus.volume);
+})
+
 aud.onclick = () => {
     mus.pause()
     if (musplay === true) {
