@@ -49,3 +49,12 @@
     border: 1px solid blac;
     appearance: none;
 }
+
+@media (max-width:1024px)  {
+    #range {
+        right: 50px;
+    }
+    .btn__vaud {
+        right: 50px;
+    }
+}
